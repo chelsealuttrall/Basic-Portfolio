@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chelsea's Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/contact.style.css">
     
 </head>
 <body id="bottomLINE">
@@ -15,11 +15,11 @@
             <header><h1>Chelsea Luttrall</h1></header>
             <nav>
                 <ul>
-                    <li><a href="C:/Documents/GitHub/Basic-Portfolio/index.html">About</a></li>
+                    <li><a class="nav" href="C:/Documents/GitHub/Basic-Portfolio/index.html">About</a></li>
                     <li>|</li>
-                    <li><a href="C:/Documents/GitHub/Basic-Portfolio/portfolio.html>Portfolio">Portfolio</a></li>
+                    <li><a class="nav" href="C:/Documents/GitHub/Basic-Portfolio/portfolio.html>Portfolio">Portfolio</a></li>
                     <li>|</li>
-                    <li><a href="C:/Documents/GitHub/Basic-Portfolio/contact.html">Contact</a></li>
+                    <li><a class="nav" href="C:/Documents/GitHub/Basic-Portfolio/contact.html">Contact</a></li>
                 </ul>
             </nav>
       </div>
@@ -27,17 +27,17 @@
             <h2>Contact</h2>
             <hr>
             <form action="#" target="#">
-                <p>Name</p>
-                <input type="text" name="name"></input>
+                <label for="name">NAME</label><br>
+                <input type="text" name="name" required></input>
                 <br>
-                <p>Email</p>
-                <input type="email" name="email"></input>
+                <label for="email">EMAIL</label><br>
+                <input type="email" name="email"></input required>
                 <br>
-                <p>Message</p>
-                <input type="text-box" box-width="100px" name="message" value="Type your message here."></input>
+                <label for="message">MESSAGE</label><br>
+                <textarea id="message" name="message" rows="10" cols="50" required>Type your message here. </textarea>
                 <br>
                 <br>
-                <input type="submit" value="submit"></input>
+                <input class=button type="submit" value="submit"></input>
             </form>
         </main>
       

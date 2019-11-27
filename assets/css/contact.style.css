@@ -65,15 +65,6 @@ h2 {
     font-stretch: expanded;
 }
 
-#MyPic {
-    width: 200px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: midnightblue;
-    position: relative;
-    float: left;
-}
-
 p {
     font-family: 'Courier New', Courier, monospace;
     margin: 15px;
@@ -81,15 +72,6 @@ p {
     text-align: justify;
     font-size: 20px;
     margin-bottom: 20px;
-}
-
-.rotate90 {
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-    margin: 30px auto 30px 0px;
 }
 
 #bottomLINE {
@@ -108,12 +90,21 @@ footer {
     border-width: 1px;
 }
 
-#textforAboutMe {
-    _text-align: vertical;
+
+input.button{
+    background-color:rgb(48, 55, 63);;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
 }
 
-a.intext{
-    color:midnightblue;
-    text-decoration: none;
-    text-shadow: 2px 2px 3px skyblue;
+form {
+    margin:20px 30px;
+    
+}
+
+input, textarea{
+    margin: 10px auto;
+    color: lightgray;
 }
