@@ -107,4 +107,6 @@ form {
 input, textarea{
     margin: 10px auto;
     color: lightgray;
+    width: 30%;
 }
+
