@@ -149,7 +149,7 @@ div.project img {
 }
 div.project h3 {
     position: relative;
-    bottom: 55px;
+    bottom: 53px;
     box-shadow: black 0px 2px 4px;    
 
 }
@@ -157,11 +157,12 @@ div.project h3 {
 h3 {
     background-color: rgb(48, 55, 63);
     color: white;
-    padding: 4px;
-    font-size: 14px;
+    padding: 2px;
+    font-size: 16px;
     width: auto;  
     font-family: arial;
     margin: 10px;
     text-align: center;
+    font-family: 'Nanum Myeongjo', serif;
 
 }
